@@ -1,0 +1,44 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  #game-container {
+    width: 70vw;
+    height: 50vh;
+    align-items: center;
+    padding-top: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    background-image: url(https://img.freepik.com/free-vector/hand-drawn-video-game-background_23-2150307800.jpg);
+    transition: transform 0.1s;
+ 
+    background-size:cover;
+    position:absolute;
+   }
+  #dino {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    width: 100px;
+    height: 80px;
+    background-image: url(https://krita-artists.org/uploads/default/original/2X/4/4cef2b1de570036eeabaf4c64f1e90b8af6144a1.gif);
+    background-image: color=blue;
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.1s linear;
+  }
+  #obstacle {
+    position: absolute;
+    bottom: 0;
+    right: -20px;
+    width: 70px;
+    height: 60px;
+    background-image:url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4efe1cd3-f0e6-4b8f-839e-a9f27066d16e/d333xx6-4b94254d-09b7-4f6a-a24b-199a170de28a.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRlZmUxY2QzLWYwZTYtNGI4Zi04MzllLWE5ZjI3MDY2ZDE2ZVwvZDMzM3h4Ni00Yjk0MjU0ZC0wOWI3LTRmNmEtYTI0Yi0xOTlhMTcwZGUyOGEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.UYlnVTQWrmTHV-XpSURLqmfNfeLQbcQdzwZspc7vXxc);
+    background-size: cover;
+  }
